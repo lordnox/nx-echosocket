@@ -1,0 +1,32 @@
+{
+  "name": "nx-echoserver",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lordnox/nx-echoserver"
+  },
+  "scripts": {
+    "test": "node grunter.js test:unit",
+    "start": "DEBUG=nx-* coffee app/app.coffee"
+  },
+  "homepage": "https://lordnox.github.io/nx-echoserver",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "chai": "1.4.0",
+    "matchdep": "~0.3.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-simple-mocha": "^0.4.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-nodemon": "^0.2.1"
+  },
+  "dependencies": {
+    "sinon-chai": "^2.5.0",
+    "chai": "^1.9.1",
+    "matchdep": "^0.3.0",
+    "mocha": "^1.18.2",
+    "sinon": "^1.9.0",
+    "socket.io": "^0.9.16"
+  }
+}
